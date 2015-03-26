@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F4666351AC3C68200763318 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4666341AC3C68200763318 /* PlaySoundsViewController.swift */; };
+		1F4666371AC3CB4800763318 /* 01 - BobMarley-Hammer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F4666361AC3CB4800763318 /* 01 - BobMarley-Hammer.mp3 */; };
 		1FAD5CA71AB14EC9005F6EFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAD5CA61AB14EC9005F6EFE /* AppDelegate.swift */; };
 		1FAD5CA91AB14EC9005F6EFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAD5CA81AB14EC9005F6EFE /* ViewController.swift */; };
 		1FAD5CAC1AB14EC9005F6EFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FAD5CAA1AB14EC9005F6EFE /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F4666341AC3C68200763318 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		1F4666361AC3CB4800763318 /* 01 - BobMarley-Hammer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "01 - BobMarley-Hammer.mp3"; path = "../01 - BobMarley-Hammer.mp3"; sourceTree = "<group>"; };
 		1FAD5CA11AB14EC9005F6EFE /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FAD5CA51AB14EC9005F6EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FAD5CA61AB14EC9005F6EFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +84,7 @@
 				1FAD5CA61AB14EC9005F6EFE /* AppDelegate.swift */,
 				1FAD5CA81AB14EC9005F6EFE /* ViewController.swift */,
 				1FAD5CAA1AB14EC9005F6EFE /* Main.storyboard */,
+				1F4666341AC3C68200763318 /* PlaySoundsViewController.swift */,
 				1FAD5CAD1AB14EC9005F6EFE /* Images.xcassets */,
 				1FAD5CAF1AB14EC9005F6EFE /* LaunchScreen.xib */,
 				1FAD5CA41AB14EC9005F6EFE /* Supporting Files */,
@@ -90,6 +95,7 @@
 		1FAD5CA41AB14EC9005F6EFE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1F4666361AC3CB4800763318 /* 01 - BobMarley-Hammer.mp3 */,
 				1FAD5CA51AB14EC9005F6EFE /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FAD5CAC1AB14EC9005F6EFE /* Main.storyboard in Resources */,
+				1F4666371AC3CB4800763318 /* 01 - BobMarley-Hammer.mp3 in Resources */,
 				1FAD5CB11AB14EC9005F6EFE /* LaunchScreen.xib in Resources */,
 				1FAD5CAE1AB14EC9005F6EFE /* Images.xcassets in Resources */,
 			);
@@ -213,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FAD5CA91AB14EC9005F6EFE /* ViewController.swift in Sources */,
+				1F4666351AC3C68200763318 /* PlaySoundsViewController.swift in Sources */,
 				1FAD5CA71AB14EC9005F6EFE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +415,7 @@
 				1FAD5CC21AB14EC9005F6EFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FAD5CC31AB14EC9005F6EFE /* Build configuration list for PBXNativeTarget "Pitch PerfectTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				1FAD5CC51AB14EC9005F6EFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
